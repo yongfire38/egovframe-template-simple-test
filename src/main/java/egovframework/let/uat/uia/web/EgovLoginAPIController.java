@@ -103,7 +103,7 @@ public class EgovLoginAPIController {
 	}
 
 	@RequestMapping(value = "/uat/uia/actionLoginJWT.do")
-	public @ResponseBody HashMap<String, Object> actionLoginJWT(@RequestBody LoginVO loginVO, HttpServletRequest request, HttpServletResponse response, ModelMap model) throws Exception {
+	public @ResponseBody HashMap<String, Object> actionLoginJWT(@RequestBody LoginVO loginVO, HttpServletRequest request, ModelMap model) throws Exception {
 		HashMap<String, Object> resultMap = new HashMap<String, Object>();
 		
 		// 1. 일반 로그인 처리

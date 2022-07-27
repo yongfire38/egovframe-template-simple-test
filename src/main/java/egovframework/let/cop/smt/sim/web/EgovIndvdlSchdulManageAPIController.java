@@ -505,7 +505,6 @@ public class EgovIndvdlSchdulManageAPIController {
 		beanValidator.validate(indvdlSchdulManageVO, bindingResult);
 		if (bindingResult.hasErrors()) {
 
-			System.out.println("1111111111111111111111111111111111111111111111111111111");
 			resultVO.setResult(resultMap);
 			resultVO.setResultCode(ResponseCode.SUCCESS.getCode());
 			resultVO.setResultMessage(ResponseCode.SUCCESS.getMessage());
